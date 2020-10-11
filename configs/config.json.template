@@ -1,7 +1,7 @@
 {
     "clients": {
         "total": 1000,
-        "per_round": 20,
+        "per_round": 15,
         "label_distribution": "uniform",
         "do_test": false,
         "test_partition": 0.2
@@ -28,7 +28,7 @@
         "epochs": 5,
         "batch_size": 10
     },
-    "model": "MNIST",
+    "model": "CIFAR-10",
     "paths": {
         "data": "./data",
         "model": "./models",
